@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Fraunces";
+  font-weight: 700;
+  src: url("./public/fonts/Fraunces/Fraunces_144pt-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("./public/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url("./public/fonts/Montserrat/Montserrat-Bold.ttf");
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <!-- <link rel="stylesheet" href="tailwind.css"/> -->
+  <link rel="stylesheet" href="style.css"/>
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="m-0 h-screen flex flex-col items-center justify-center bg-customCream">
+  <main class="w-64 rounded-lg bg-white grid grid-rows-[12rem_auto] overflow-hidden">
+    <img class="max-lg:hidden" alt="product picture" src="./images/image-product-desktop.jpg" />
+    <img class="lg:hidden" alt="product picture" src="./images/image-product-mobile.jpg" />
+    <!-- 287x512 -->
+    <section class="p-4 flex flex-col">
+      <small class="uppercase tracking-widest text-customDarkGrayishBlue">Perfume</small>
+      <h2 class="text-3xl font-bold leading-7 text-customVeryDarkBlue font-serif">Gabrielle Essence Eau De Parfum</h2>
+      <p class="text-sm text-customDarkGrayishBlue">
+      A floral, solar and voluptuous interpretation composed by Olivier Polge,
+      Perfumer-Creator for the House of CHANEL.
+      </p>
+
+<section class="my-3 flex items-center">
+      <b class="text-2xl font-bold text-customDarkCyan font-serif">$149.99</b>
+      <del class="ml-3 text-xs">$169.99</del>
+</section>
+
+<button class="p-3 rounded-lg grid grid-flow-col auto-cols-max items-center justify-center bg-customDarkCyan gap-x-2 text-white">
+    <img class="lg:hidden" alt="product picture" src="./images/icon-cart.svg" />
+    <p>Add to Cart</p>
+</button>
+
+    </section>
+  </main>
+
+  <div class=""></div>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>

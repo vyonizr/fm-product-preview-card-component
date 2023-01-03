@@ -1,0 +1,14 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
