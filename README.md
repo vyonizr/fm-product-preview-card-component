@@ -13,6 +13,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -118,6 +119,10 @@ live-server --host=localhost
 ```
 
 Everytime you utilize any class from the Tailwind library while running `watch`, tailwind updates `style.css` to make sure only used classes written upon built.
+
+### Useful resources
+
+- [Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier) - This helped me sorting Tailwind classes.
 
 ## Author
 
