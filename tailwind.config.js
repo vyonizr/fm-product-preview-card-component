@@ -41,6 +41,7 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
       customDarkCyan: 'hsl(158, 36%, 37%)',
+      customDarkCyanHover: 'hsla(156, 42%, 18%)',
       customCream: 'hsl(30, 38%, 92%)',
       customVeryDarkBlue: 'hsl(212, 21%, 14%)',
       customDarkGrayishBlue: 'hsl(228, 12%, 48%)',
